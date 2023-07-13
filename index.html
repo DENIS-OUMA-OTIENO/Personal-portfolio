@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+   <title>Personal portfolio</title>
+   <link rel="stylesheet" href="styles.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <script src="script.js" defer></script> 
+  </head>
+<body>
+    <div class="scroll-btn">
+      <a href="#home"><i class='bx bxs-chevron-up'></i></a>
+    </div>
+<nav>
+  <div class="navbar">
+    <div class="logo"><a href="">Portfolio.</a></div>
+      <ul class="sidemenu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact me</a></li>
+      <div class="close-btn">
+        <i class='bx bx-x'></i>
+      </div>        
+    </ul>
+    <div class="menu-btn">
+      <i class='bx bx-menu'></i>
+    </div>
+  </div>
+</nav>
+<!------home--------------->
+  <div id="home">
+      <div class="home-text">
+        <div class="text-1">Hi,</div>
+        <div class="text-2">I'm <span>Denis</span></div>
+        <div class="text-3">Software Developer</div>
+        <div class="text-4">From Nairobi, Kenya</div>
+        <a href="" class="btn">Hire me</a>
+      </div>
+    </div>
+
+  <!--------------------------- about --------------------> 
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>Through my 2 year-plus career as a software developer, I have focused on developing scalable and well documented code. I enjoy working collaboratively but can also run with projects independently. Excited about the prospect of joining a product driven company.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Software Developer</span><br>Web app development</li>
+              <li><span>UI/UX Design</span><br>Designing web/app interfaces</li>  
+              <li><span>App Development</span><br>Building mobile applications</li>          </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2022 - Current</span><br>Freelancer for Software developer jobs</li>
+              <li><span>2021 - 2022</span><br>Software Developer at Ministry of Education</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2015 - 2019</span><br>Bsc in IT from University of Eldoret</li>
+            </ul>
+          </div>
+          <a href="images/DENIS OUMA OTIENO CV.pdf" download class="btn btn2">Download CV</a> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------------------- services---------------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My services</h1>
+      <div class="services-list">
+      <div>
+        <i class='bx bx-code-alt'></i>
+        <h2>Web Development</h2>
+        <p>I develop user-friendly 
+          and efficient web apps that are visually appealing and easy to navigate.</p>
+        
+      </div>
+      <div>
+        <i class='bx bxs-crop'></i>
+        <h2>UI/UX Design</h2>
+        <p>I use my expertise in UX design to create innovative, 
+          user-friendly and intuitive products that drive customer engagement.</p>
+        
+      </div>
+      <div>
+        <i class='bx bxl-apple'></i>
+        <h2>App Development</h2>
+        <p>Ready for a challenging role as Mobile Applications
+           Developer in a highly technical company where 
+           I could utilize my skills produce the most advanced mobile applications..</p>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+<!-- -----------------Portfolio---------- -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.png">
+        <div class="layer">
+          <h3>E-learning App</h3>
+          <p>The app improves your content retention.</p>
+          
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-2.png">
+        <div class="layer">
+          <h3>E-commerce web app</h3>
+          <p>The app enables you to order products online.</p>
+          
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-3.png">
+        <div class="layer">
+          <h3>Business management app</h3>
+          <p>Through the app, you can track your stocks, sales and profit/losses.</p>
+          
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!-- ----------contact--------- -->
+<div id="contact">
+  <div class="container">
+    <h1 class="sub-title">Contact me</h1>
+    <div class="row">
+      <div class="contact-left">
+      
+      <p><i class='bx bx-paper-plane'></i>dennisouma96@gmail.com</p>
+      <p><i class='bx bxs-phone-call'></i> +2547-07 896 082</p>
+      <div class="social-icons">
+        <a href=""><i class='bx bxl-linkedin-square'></i></a>
+        <a href=""><i class='bx bxl-twitter'></i></a>
+        <a href=""><i class='bx bxl-facebook'></i></a>
+
+      </div>
+      
+    </div>
+    <div class="contact-right">
+      <h3>Message me</h3>
+        <form name ="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Send message</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © 2023 All rights reserved</p>
+  </div>
+</div>
+
+
+</body>
+</html>
