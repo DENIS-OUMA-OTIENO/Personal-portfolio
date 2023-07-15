@@ -488,7 +488,7 @@ form .btn2{
 
 @media only screen and (max-width: 600px){
     #home{
-        background-image: url(images/phone.png);
+        background-image: url(phone.png);
     }
     .home-text{
         margin-top: 0%;
