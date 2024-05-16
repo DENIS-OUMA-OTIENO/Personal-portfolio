@@ -65,7 +65,7 @@ for(let i = 0; i < navLinks.length; i++){
 // send message js
 
 
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzTCfemIQ-vy4nPFayyGEfb379QgtRNiPpc5UXiXjhWfSnIt5KhI4Fy5yLkOcA88q5ysA/exec';
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwsN4KlOrF8eyw_XhHQfXh6ZCm58XAkvWnb85FE2un9JvYb0E_jy87M-YuM_nezowDGdQ/exec';
   const form = document.forms['submit-to-google-sheet'];
   const message = document.getElementById("msg");
   
@@ -81,3 +81,5 @@ for(let i = 0; i < navLinks.length; i++){
       })
       .catch(error => console.error('Error!', error.message))
   })
+
+
